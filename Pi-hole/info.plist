@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>de.honma.alfred.pi-hole</string>
+	<key>category</key>
+	<string>Internet</string>
+	<key>connections</key>
+	<dict>
+		<key>350F801B-1331-4423-B40B-1D75E2F4A5D0</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>57008E4F-819F-4053-9494-9E5DD702AE1D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>537603EA-062B-4993-8FAD-3F715EEF6696</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>57008E4F-819F-4053-9494-9E5DD702AE1D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>57008E4F-819F-4053-9494-9E5DD702AE1D</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>D6AB11F9-4A95-4471-B835-4C75F551C071</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>27E9317F-33CD-4A1F-80ED-AF3D856666FF</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>D6AB11F9-4A95-4471-B835-4C75F551C071</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>2FB36510-AE17-4D87-AF3C-BD1B67E15506</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>D6AB11F9-4A95-4471-B835-4C75F551C071</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>D6164110-C468-43A0-A259-1A0B435C1DDD</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>6538AA20-E9E7-4EB0-B2D4-EE90E3E4F2DE</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>27E9317F-33CD-4A1F-80ED-AF3D856666FF</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>6538AA20-E9E7-4EB0-B2D4-EE90E3E4F2DE</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>2FB36510-AE17-4D87-AF3C-BD1B67E15506</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>6538AA20-E9E7-4EB0-B2D4-EE90E3E4F2DE</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>D6164110-C468-43A0-A259-1A0B435C1DDD</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>1146EC38-DEF0-4E96-8876-483B7B74E3F4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>6538AA20-E9E7-4EB0-B2D4-EE90E3E4F2DE</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1DFCB017-D88D-45F0-AC0A-B7C0016F70D6</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>6D25E8DB-BA3C-4F13-8DCB-0FADD06BC94B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>57008E4F-819F-4053-9494-9E5DD702AE1D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Tamio Honma</string>
+	<key>description</key>
+	<string>Quickly control Pi-hole</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Pi-hole</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>fixedorder</key>
+				<false/>
+				<key>items</key>
+				<string>[{"title":"Admin","arg":"admin","subtitle":"Open admin interface"},{"title":"Disable","arg":"disable","subtitle":"Disable Pi-hole {var:disable_duration}"},{"title":"Enable","arg":"enable","subtitle":"Enable Pi-hole"},{"title":"Status","arg":"status","subtitle":"Get Pi-hole status"}]</string>
+				<key>keyword</key>
+				<string>pihole</string>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Control Pihole quickly</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.listfilter</string>
+			<key>uid</key>
+			<string>350F801B-1331-4423-B40B-1D75E2F4A5D0</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<true/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>Please wait…</string>
+				<key>title</key>
+				<string>Pi-Hole {query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>D6AB11F9-4A95-4471-B835-4C75F551C071</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>disable</string>
+						<key>outputlabel</key>
+						<string>disable</string>
+						<key>uid</key>
+						<string>27E9317F-33CD-4A1F-80ED-AF3D856666FF</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>enable</string>
+						<key>outputlabel</key>
+						<string>enable</string>
+						<key>uid</key>
+						<string>2FB36510-AE17-4D87-AF3C-BD1B67E15506</string>
+					</dict>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>0</integer>
+						<key>matchstring</key>
+						<string>status</string>
+						<key>outputlabel</key>
+						<string>status</string>
+						<key>uid</key>
+						<string>D6164110-C468-43A0-A259-1A0B435C1DDD</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>57008E4F-819F-4053-9494-9E5DD702AE1D</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<true/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>Pi-hole</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>1DFCB017-D88D-45F0-AC0A-B7C0016F70D6</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>query="{query}"
+
+action_ssh_password=""
+if [[ $host_password != "" ]]
+then
+	action_ssh_password="$cmd_sshpass $host_password "
+fi
+
+action_ssh="$cmd_ssh $host_user@$host_address "
+
+action_docker=""
+if [[ $container != "" ]]
+then
+	action_docker="$cmd_docker $container "
+fi
+
+action_pihole=""
+if [[ $query = "disable" ]]
+then
+	action_pihole="$cmd_pihole disable $disable_duration"
+elif [[ $query = "enable" ]]
+then
+	action_pihole="$cmd_pihole enable"
+elif [[ $query = "status" ]]
+then
+	action_pihole="$cmd_pihole status | tail -1"
+fi
+
+
+eval $action_ssh_password$action_ssh$action_docker$action_pihole</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>5</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>6538AA20-E9E7-4EB0-B2D4-EE90E3E4F2DE</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>3</integer>
+				<key>argumenttext</key>
+				<string>disable</string>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>hotstring</key>
+				<string></string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>6D25E8DB-BA3C-4F13-8DCB-0FADD06BC94B</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{var:url}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>1146EC38-DEF0-4E96-8876-483B7B74E3F4</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>3</integer>
+				<key>argumenttext</key>
+				<string>enable</string>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>hotstring</key>
+				<string></string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>537603EA-062B-4993-8FAD-3F715EEF6696</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>Control Pi-hole quicky
+https://github.com/IOIO72/alfred-pi-hole
+
+
+# Setup workflow
+
+Before you use this workflow you need to set it up.
+
+
+## Mandatory variables
+
+url
+	Set the URL to the admin web-interface.
+	For example: http://192.168.1.1:8089/admin/
+
+host_address
+	Set IP address or name of the host.
+	For example: 192.168.1.1
+
+host_user
+	Set name of the host user.
+	For example: pi
+
+
+## Optional variables
+
+host_password (optional)
+	Set password of the host user,
+	if you don't use [ssh key](https://en.wikipedia.org/wiki/Ssh-keygen).
+
+container (optional)
+	Set [docker](https://www.docker.com/) container name.
+	For example: pihole
+
+disable_duration (optional)
+	Set duration for disable command
+	until Pi-hole gets enabled automatically.
+	For example: 5m
+
+	Leave empty for infinite duration.
+
+
+# MIT License
+
+Copyright 2022 Tamio Honma &lt;tamio@honma.de&gt;
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</string>
+	<key>uidata</key>
+	<dict>
+		<key>1146EC38-DEF0-4E96-8876-483B7B74E3F4</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>8</integer>
+			<key>note</key>
+			<string>Setup the URL of the Pi-hole admin interface in the environment variables of this workflow.</string>
+			<key>xpos</key>
+			<integer>390</integer>
+			<key>ypos</key>
+			<integer>320</integer>
+		</dict>
+		<key>1DFCB017-D88D-45F0-AC0A-B7C0016F70D6</key>
+		<dict>
+			<key>xpos</key>
+			<integer>570</integer>
+			<key>ypos</key>
+			<integer>160</integer>
+		</dict>
+		<key>350F801B-1331-4423-B40B-1D75E2F4A5D0</key>
+		<dict>
+			<key>xpos</key>
+			<integer>35</integer>
+			<key>ypos</key>
+			<integer>35</integer>
+		</dict>
+		<key>537603EA-062B-4993-8FAD-3F715EEF6696</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>3</integer>
+			<key>note</key>
+			<string>Optionally setup hotkey to enable Pi-hole</string>
+			<key>xpos</key>
+			<integer>35</integer>
+			<key>ypos</key>
+			<integer>320</integer>
+		</dict>
+		<key>57008E4F-819F-4053-9494-9E5DD702AE1D</key>
+		<dict>
+			<key>xpos</key>
+			<integer>235</integer>
+			<key>ypos</key>
+			<integer>150</integer>
+		</dict>
+		<key>6538AA20-E9E7-4EB0-B2D4-EE90E3E4F2DE</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>4</integer>
+			<key>note</key>
+			<string>Setup workflow environment variables.</string>
+			<key>xpos</key>
+			<integer>390</integer>
+			<key>ypos</key>
+			<integer>160</integer>
+		</dict>
+		<key>6D25E8DB-BA3C-4F13-8DCB-0FADD06BC94B</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>3</integer>
+			<key>note</key>
+			<string>Optionally setup hotkey to disable Pi-hole</string>
+			<key>xpos</key>
+			<integer>35</integer>
+			<key>ypos</key>
+			<integer>160</integer>
+		</dict>
+		<key>D6AB11F9-4A95-4471-B835-4C75F551C071</key>
+		<dict>
+			<key>xpos</key>
+			<integer>390</integer>
+			<key>ypos</key>
+			<integer>35</integer>
+		</dict>
+	</dict>
+	<key>variables</key>
+	<dict>
+		<key>cmd_docker</key>
+		<string>docker exec</string>
+		<key>cmd_pihole</key>
+		<string>pihole</string>
+		<key>cmd_ssh</key>
+		<string>ssh</string>
+		<key>cmd_sshpass</key>
+		<string>/usr/local/bin/sshpass -p</string>
+		<key>container</key>
+		<string>pihole</string>
+		<key>disable_duration</key>
+		<string>5m</string>
+		<key>host_address</key>
+		<string></string>
+		<key>host_password</key>
+		<string></string>
+		<key>host_user</key>
+		<string></string>
+		<key>url</key>
+		<string></string>
+	</dict>
+	<key>variablesdontexport</key>
+	<array>
+		<string>host_address</string>
+		<string>host_password</string>
+		<string>url</string>
+		<string>host_user</string>
+	</array>
+	<key>version</key>
+	<string>1.0.0</string>
+	<key>webaddress</key>
+	<string>https://github.com/IOIO72/alfred-pi-hole</string>
+</dict>
+</plist>
