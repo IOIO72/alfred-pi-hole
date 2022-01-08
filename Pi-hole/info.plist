@@ -25,7 +25,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>57008E4F-819F-4053-9494-9E5DD702AE1D</string>
+				<string>B4876EF2-9754-4FCE-91A0-8E185AA82F4C</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -50,30 +50,6 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>D6AB11F9-4A95-4471-B835-4C75F551C071</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>sourceoutputuid</key>
-				<string>2FB36510-AE17-4D87-AF3C-BD1B67E15506</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>D6AB11F9-4A95-4471-B835-4C75F551C071</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>sourceoutputuid</key>
-				<string>D6164110-C468-43A0-A259-1A0B435C1DDD</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
 				<string>6538AA20-E9E7-4EB0-B2D4-EE90E3E4F2DE</string>
 				<key>modifiers</key>
 				<integer>0</integer>
@@ -81,30 +57,6 @@
 				<string></string>
 				<key>sourceoutputuid</key>
 				<string>27E9317F-33CD-4A1F-80ED-AF3D856666FF</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>6538AA20-E9E7-4EB0-B2D4-EE90E3E4F2DE</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>sourceoutputuid</key>
-				<string>2FB36510-AE17-4D87-AF3C-BD1B67E15506</string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>6538AA20-E9E7-4EB0-B2D4-EE90E3E4F2DE</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>sourceoutputuid</key>
-				<string>D6164110-C468-43A0-A259-1A0B435C1DDD</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -133,6 +85,58 @@
 			</dict>
 		</array>
 		<key>6D25E8DB-BA3C-4F13-8DCB-0FADD06BC94B</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B754437B-4983-47BC-A465-CCFC912D4A77</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>99114622-1C6C-418A-A21C-53755F3D50AF</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A4DF8AB7-7138-42E6-8234-2E4ABE572A84</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>A4DF8AB7-7138-42E6-8234-2E4ABE572A84</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>57008E4F-819F-4053-9494-9E5DD702AE1D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B4876EF2-9754-4FCE-91A0-8E185AA82F4C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>57008E4F-819F-4053-9494-9E5DD702AE1D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B754437B-4983-47BC-A465-CCFC912D4A77</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
@@ -197,70 +201,12 @@
 				<key>text</key>
 				<string>Please wait…</string>
 				<key>title</key>
-				<string>Pi-Hole {query}</string>
+				<string>Pi-hole {query}</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.output.notification</string>
 			<key>uid</key>
 			<string>D6AB11F9-4A95-4471-B835-4C75F551C071</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>conditions</key>
-				<array>
-					<dict>
-						<key>inputstring</key>
-						<string></string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>0</integer>
-						<key>matchstring</key>
-						<string>disable</string>
-						<key>outputlabel</key>
-						<string>disable</string>
-						<key>uid</key>
-						<string>27E9317F-33CD-4A1F-80ED-AF3D856666FF</string>
-					</dict>
-					<dict>
-						<key>inputstring</key>
-						<string></string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>0</integer>
-						<key>matchstring</key>
-						<string>enable</string>
-						<key>outputlabel</key>
-						<string>enable</string>
-						<key>uid</key>
-						<string>2FB36510-AE17-4D87-AF3C-BD1B67E15506</string>
-					</dict>
-					<dict>
-						<key>inputstring</key>
-						<string></string>
-						<key>matchcasesensitive</key>
-						<false/>
-						<key>matchmode</key>
-						<integer>0</integer>
-						<key>matchstring</key>
-						<string>status</string>
-						<key>outputlabel</key>
-						<string>status</string>
-						<key>uid</key>
-						<string>D6164110-C468-43A0-A259-1A0B435C1DDD</string>
-					</dict>
-				</array>
-				<key>elselabel</key>
-				<string>else</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.utility.conditional</string>
-			<key>uid</key>
-			<string>57008E4F-819F-4053-9494-9E5DD702AE1D</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -284,6 +230,39 @@
 			<string>1DFCB017-D88D-45F0-AC0A-B7C0016F70D6</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>3</integer>
+				<key>argumenttext</key>
+				<string>disable</string>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>hotstring</key>
+				<string></string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>6D25E8DB-BA3C-4F13-8DCB-0FADD06BC94B</string>
+			<key>version</key>
+			<integer>2</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -340,35 +319,54 @@ eval $action_ssh_password$action_ssh$action_docker$action_pihole</string>
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>action</key>
-				<integer>0</integer>
 				<key>argument</key>
-				<integer>3</integer>
-				<key>argumenttext</key>
 				<string>disable</string>
-				<key>focusedappvariable</key>
+				<key>passthroughargument</key>
 				<false/>
-				<key>focusedappvariablename</key>
-				<string></string>
-				<key>hotkey</key>
-				<integer>0</integer>
-				<key>hotmod</key>
-				<integer>0</integer>
-				<key>hotstring</key>
-				<string></string>
-				<key>leftcursor</key>
-				<false/>
-				<key>modsmode</key>
-				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>inboundconfig</key>
+			<dict>
+				<key>externalid</key>
+				<string>disable</string>
 			</dict>
 			<key>type</key>
-			<string>alfred.workflow.trigger.hotkey</string>
+			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
-			<string>6D25E8DB-BA3C-4F13-8DCB-0FADD06BC94B</string>
+			<string>B754437B-4983-47BC-A465-CCFC912D4A77</string>
 			<key>version</key>
-			<integer>2</integer>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>1</integer>
+						<key>matchstring</key>
+						<string>admin</string>
+						<key>outputlabel</key>
+						<string>command</string>
+						<key>uid</key>
+						<string>27E9317F-33CD-4A1F-80ED-AF3D856666FF</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>admin</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>57008E4F-819F-4053-9494-9E5DD702AE1D</string>
+			<key>version</key>
+			<integer>1</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -422,6 +420,83 @@ eval $action_ssh_password$action_ssh$action_docker$action_pihole</string>
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>enable</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>inboundconfig</key>
+			<dict>
+				<key>externalid</key>
+				<string>enable</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>B4876EF2-9754-4FCE-91A0-8E185AA82F4C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>3</integer>
+				<key>argumenttext</key>
+				<string>status</string>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
+				<key>hotstring</key>
+				<string></string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>99114622-1C6C-418A-A21C-53755F3D50AF</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>status</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>inboundconfig</key>
+			<dict>
+				<key>externalid</key>
+				<string>status</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>A4DF8AB7-7138-42E6-8234-2E4ABE572A84</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>Control Pi-hole quicky
@@ -466,6 +541,11 @@ disable_duration (optional)
 	Leave empty for infinite duration.
 
 
+## External trigger
+
+With Alfred 4.1 upwards you can use the external triggers of this workflow to use its actions from other workflows or Apple Scripts. (see: https://www.alfredapp.com/help/workflows/triggers/external/)
+
+
 # MIT License
 
 Copyright 2022 Tamio Honma &lt;tamio@honma.de&gt;
@@ -484,23 +564,23 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 			<key>note</key>
 			<string>Setup the URL of the Pi-hole admin interface in the environment variables of this workflow.</string>
 			<key>xpos</key>
-			<integer>390</integer>
+			<integer>565</integer>
 			<key>ypos</key>
-			<integer>320</integer>
+			<integer>315</integer>
 		</dict>
 		<key>1DFCB017-D88D-45F0-AC0A-B7C0016F70D6</key>
 		<dict>
 			<key>xpos</key>
-			<integer>570</integer>
+			<integer>745</integer>
 			<key>ypos</key>
-			<integer>160</integer>
+			<integer>155</integer>
 		</dict>
 		<key>350F801B-1331-4423-B40B-1D75E2F4A5D0</key>
 		<dict>
 			<key>xpos</key>
-			<integer>35</integer>
+			<integer>225</integer>
 			<key>ypos</key>
-			<integer>35</integer>
+			<integer>30</integer>
 		</dict>
 		<key>537603EA-062B-4993-8FAD-3F715EEF6696</key>
 		<dict>
@@ -509,16 +589,16 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 			<key>note</key>
 			<string>Optionally setup hotkey to enable Pi-hole</string>
 			<key>xpos</key>
-			<integer>35</integer>
+			<integer>45</integer>
 			<key>ypos</key>
-			<integer>320</integer>
+			<integer>315</integer>
 		</dict>
 		<key>57008E4F-819F-4053-9494-9E5DD702AE1D</key>
 		<dict>
 			<key>xpos</key>
-			<integer>235</integer>
+			<integer>415</integer>
 			<key>ypos</key>
-			<integer>150</integer>
+			<integer>265</integer>
 		</dict>
 		<key>6538AA20-E9E7-4EB0-B2D4-EE90E3E4F2DE</key>
 		<dict>
@@ -527,9 +607,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 			<key>note</key>
 			<string>Setup workflow environment variables.</string>
 			<key>xpos</key>
-			<integer>390</integer>
+			<integer>565</integer>
 			<key>ypos</key>
-			<integer>160</integer>
+			<integer>155</integer>
 		</dict>
 		<key>6D25E8DB-BA3C-4F13-8DCB-0FADD06BC94B</key>
 		<dict>
@@ -538,16 +618,54 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 			<key>note</key>
 			<string>Optionally setup hotkey to disable Pi-hole</string>
 			<key>xpos</key>
-			<integer>35</integer>
+			<integer>45</integer>
 			<key>ypos</key>
-			<integer>160</integer>
+			<integer>155</integer>
+		</dict>
+		<key>99114622-1C6C-418A-A21C-53755F3D50AF</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>3</integer>
+			<key>note</key>
+			<string>Optionally setup hotkey to get status of Pi-hole</string>
+			<key>xpos</key>
+			<integer>45</integer>
+			<key>ypos</key>
+			<integer>475</integer>
+		</dict>
+		<key>A4DF8AB7-7138-42E6-8234-2E4ABE572A84</key>
+		<dict>
+			<key>note</key>
+			<string>status</string>
+			<key>xpos</key>
+			<integer>265</integer>
+			<key>ypos</key>
+			<integer>505</integer>
+		</dict>
+		<key>B4876EF2-9754-4FCE-91A0-8E185AA82F4C</key>
+		<dict>
+			<key>note</key>
+			<string>enable</string>
+			<key>xpos</key>
+			<integer>265</integer>
+			<key>ypos</key>
+			<integer>345</integer>
+		</dict>
+		<key>B754437B-4983-47BC-A465-CCFC912D4A77</key>
+		<dict>
+			<key>note</key>
+			<string>disable</string>
+			<key>xpos</key>
+			<integer>265</integer>
+			<key>ypos</key>
+			<integer>185</integer>
 		</dict>
 		<key>D6AB11F9-4A95-4471-B835-4C75F551C071</key>
 		<dict>
 			<key>xpos</key>
-			<integer>390</integer>
+			<integer>565</integer>
 			<key>ypos</key>
-			<integer>35</integer>
+			<integer>30</integer>
 		</dict>
 	</dict>
 	<key>variables</key>
@@ -581,7 +699,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 		<string>host_user</string>
 	</array>
 	<key>version</key>
-	<string>1.0.0</string>
+	<string>1.1.0</string>
 	<key>webaddress</key>
 	<string>https://github.com/IOIO72/alfred-pi-hole</string>
 </dict>

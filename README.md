@@ -49,6 +49,10 @@ Before you use this workflow you need to set it up. To do so, open the workflow 
 	*For example: 5m*
 	Leave empty for infinite duration.
 
+## External trigger
+
+With Alfred 4.1 upwards you can use the external triggers of this workflow to use its actions from other workflows or Apple Scripts. (see: https://www.alfredapp.com/help/workflows/triggers/external/)
+
 ## Background of the idea
 
 As I search for products to purchase, I sometimes like to click on advertised links intentionally, which is not possible, if Pi-hole is enabled. It's a bit annoying and slow to call the web admin interface, login and hit the disable button. To quickly control Pi-hole in this scenario, an Alfred workflow is a perfect solution and I created it.
