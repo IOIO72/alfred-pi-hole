@@ -6,6 +6,12 @@
 
 https://www.youtube.com/watch?v=Yr9M-OwujDk
 
+## Alfred 4 vs. 5
+
+Already using [Alfred 5](https://www.alfredapp.com/alfred-5-whats-new/)? Then install version [1.2.0](https://github.com/IOIO72/alfred-pi-hole/releases/tag/1.2.0) of this workflow.
+
+If you use Alfred 4, then use the version [1.1.0](https://github.com/IOIO72/alfred-pi-hole/releases/tag/1.1.0) of this workflow.
+
 ## Usage
 
 Use Alfred keyword `pihole` and choose one of the commands:
